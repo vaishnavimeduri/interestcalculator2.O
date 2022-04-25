@@ -37,7 +37,7 @@ function AddEntry(){
     num++;
 }
 let dum1=false
-function displaydetails(){
+function displayDetails(){
      if(dum1===false){
         document.getElementById("entries").style="display: block;"
         dum1=true
