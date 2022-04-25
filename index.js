@@ -1,10 +1,12 @@
-let dum=false;
+let dum=false
+let num=1
 function AddEntry(){
     let x=document.getElementById("name").value
     let y=document.getElementById("bankinterest").value
     let z=calcinterest(y)
     document.getElementById("table").innerHTML+=(dum==true)?`
     <tr  class="grey">
+    <td id="4"></td>
     <td id="1"></td>
     <td id="2"></td>
     <td id="3"></td>
@@ -12,6 +14,7 @@ function AddEntry(){
     `:
     `
     <tr>
+    <td id="4"></td>
     <td id="1"></td>
     <td id="2"></td>
     <td id="3"></td>
@@ -26,9 +29,12 @@ function AddEntry(){
     document.getElementById("1").innerText=x
     document.getElementById("2").innerText=y
     document.getElementById("3").innerText=z
+    document.getElementById("4").innerText=num
     document.getElementById("1").removeAttribute("id");
     document.getElementById("2").removeAttribute("id");
     document.getElementById("3").removeAttribute("id");
+    document.getElementById("4").removeAttribute("id");
+    num++;
 }
 let dum1=false
 function displaydetails(){
