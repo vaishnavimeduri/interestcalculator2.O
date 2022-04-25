@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interest calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <button onclick="displaydetails()">+AddEntry</button>
+            <div id="entries"  class="details">
+                <div>
+                <label for="name"><b>Name:</b></label>
+                <input type="text" placeholder="Enter Name Of Candidate" id="name">
+                </div>
+                <div>
+                <label for="bankinterest"><b>Balance:</b></label>
+                <input type="number" placeholder="Enter Your Balance" name="" id="bankinterest">
+            </div>
+            <div>
+                <button onclick="AddEntry()">Add Entry</button>
+            </div>
+            </div>
+        </div>
+        <table id="table">
+            <tr><th id="topleft">Candidate Name</th>
+            <th>Balance</th>
+            <th id="topright">Balance After Interest</th></tr>
+        </table>
+        <td></td>
+        <td></td>
+        <td></td>
+    </div>
+</body>
+</html>

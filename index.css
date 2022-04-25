@@ -1,0 +1,43 @@
+.details{
+    display:none;
+}
+.grey{
+    background-color: grey;
+}
+th{
+    background-color: navy;
+    color: white;
+}
+table{
+    border-spacing: 0px;
+    width:100%;
+}
+th,td{
+    text-align: center;
+    padding:10px;
+    height:50px;
+
+}
+#topleft{
+    border-top-left-radius: 20px;
+}
+
+#topright{
+    border-top-right-radius: 20px;
+}
+button{
+    margin:10px;
+    background-color: brown;
+    color: wheat;
+    height:40px;
+    width:160px;
+}
+#entries{
+    margin-bottom: 10px;
+   }
+   input{
+       margin-top: 10px;
+       margin-bottom: 10px;
+       border-radius: 10px;
+       border:2px solid brown;
+   }
